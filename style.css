@@ -76,6 +76,12 @@ button:hover {
     background-color: var(--primaryColor);
     overflow: hidden;
     border: 2px solid var(--secondaryColor);
-    /* border-right: 2px solid var(--secondaryColor); */
-    /* border-bottom: 2px solid var(--secondaryColor); */
+}
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+@media (max-width: 576px)
+{
+    .concepts{
+        margin: 4rem;
+    }
 }
