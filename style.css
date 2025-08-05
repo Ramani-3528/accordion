@@ -15,6 +15,7 @@ html {
 
 body {
     font-family: var(--ffprimary);
+    font-family: var(--ffsecondary);
     background-color: var(--primaryColor);
 }
 
@@ -22,7 +23,7 @@ body {
     --primaryColor: #ffffff;
     --secondaryColor: #07a1da;
     --tertiararyColor: #333;
-    --lightColor: #5cd2fd;
+    --lightColor: #4ccdfc;
     --ffprimary: "Libertinus";
     --ffsecondary: "Nata Sans";
 }
