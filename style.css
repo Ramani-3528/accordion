@@ -68,6 +68,17 @@ button:hover {
     background-color: var(--tertiararyColor);
 }
 
+.accordion::after {
+    content: '˅';
+    float: right;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.accordion.active::after {
+    content: '˄';
+}
+
 .panel {
     font-family: var(--ffsecondary);
     font-size: 1.6rem;
